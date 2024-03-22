@@ -1,1 +1,1 @@
-mmmmm
+int a = 0;

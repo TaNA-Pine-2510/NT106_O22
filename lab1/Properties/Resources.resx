@@ -121,19 +121,25 @@
   <data name="doc so" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doc so.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ảnh 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ảnh 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="đọc số" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\đọc số.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ảnh 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ảnh 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="f588b784f5b2f161f3d3c9a5bad7eaf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\f588b784f5b2f161f3d3c9a5bad7eaf1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ảnh 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ảnh 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ảnh 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ảnh 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="đọc số" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\đọc số.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="câu 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\câu 5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="câu điểm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\câu điểm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

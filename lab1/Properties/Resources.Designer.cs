@@ -93,6 +93,26 @@ namespace lab1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap câu_5 {
+            get {
+                object obj = ResourceManager.GetObject("câu 5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap câu_điểm {
+            get {
+                object obj = ResourceManager.GetObject("câu điểm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap doc_so {
             get {
                 object obj = ResourceManager.GetObject("doc so", resourceCulture);

@@ -20,3 +20,4 @@ D:\UIT-K17\3. LAP TRINH MANG\THUC HANH\LAB 1\lab1\lab1\obj\Debug\net8.0-windows\
 D:\UIT-K17\3. LAP TRINH MANG\THUC HANH\LAB 1\lab1\lab1\obj\Debug\net8.0-windows\lab1.bai3.resources
 D:\UIT-K17\3. LAP TRINH MANG\THUC HANH\LAB 1\lab1\lab1\obj\Debug\net8.0-windows\lab1.bai4.resources
 D:\UIT-K17\3. LAP TRINH MANG\THUC HANH\LAB 1\lab1\lab1\obj\Debug\net8.0-windows\lab1.bai5.resources
+D:\UIT-K17\3. LAP TRINH MANG\THUC HANH\LAB 1\lab1\lab1\obj\Debug\net8.0-windows\lab1.sourcelink.json

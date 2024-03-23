@@ -27,6 +27,7 @@ namespace lab1
                 MessageBox.Show("Vui lòng số nguyên!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1);
                 tbst1.Text = "";
             }
+            int temp;
 
         }
 

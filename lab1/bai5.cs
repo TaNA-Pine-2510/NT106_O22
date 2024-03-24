@@ -38,12 +38,17 @@ namespace lab1
 
         private void tbnhap_TextChanged(object sender, EventArgs e)
         {
+            if (tbnhap.Text.Contains(','))
+            {
+                MessageBox.Show("Vui lòng sử dụng dấu chấm '.' cho số thập phân.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
         }
 
         private void btxuat_Click(object sender, EventArgs e)
         {
 
-            string[] input = tbnhap.Text.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+            string[] input = tbnhap.Text.Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries);
 
             if (input.Length < 2)
             {
@@ -58,10 +63,10 @@ namespace lab1
 
             int numSJ = input.Length - 1;
             // scores = new double[numSJ];
-
             tbten.Text = name + "\r\n";
             for (int i = 0; i < scores.Length; i++)
             {
+
                 Label label = new Label();
                 label.Text = $"Môn {i + 1}: {scores[i].ToString()}";
                 label.AutoSize = true;
@@ -69,15 +74,15 @@ namespace lab1
                 flowLayoutPanel1.Controls.Add(label);
             }
 
-
+           
             double diemTB = scores.Average();
             lbtb.Text = $"{diemTB.ToString()}";
 
 
             double diemCaoNhat = scores.Max();
             double diemThapNhat = scores.Min();
-            lbmax.Text = $"{diemCaoNhat.ToString()}";
-            lbmin.Text = $"{diemThapNhat.ToString()}";
+            lbmax.Text = $"{diemCaoNhat.ToString()}"+"đ";
+            lbmin.Text = $"{diemThapNhat.ToString()}"+"đ";
 
 
             int somondau = scores.Count(x => x >= 5);
@@ -120,12 +125,18 @@ namespace lab1
         {
             flowLayoutPanel1.Controls.Clear();
             tbnhap.Text = "";
-            lbtb.Text = lbxloai.Text = lbrot.Text = lbdau.Text = lbmin.Text = lbmax.Text = "";
+            lbtb.Text = lbxloai.Text = lbrot.Text = lbdau.Text = lbmin.Text = lbmax.Text = tbten.Text="";
         }
 
         private void btthoat_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void tbten_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+
         }
     }
 }

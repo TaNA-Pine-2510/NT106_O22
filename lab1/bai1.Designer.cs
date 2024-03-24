@@ -71,6 +71,7 @@
             // 
             // tbst1
             // 
+            tbst1.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tbst1.Location = new Point(352, 195);
             tbst1.Multiline = true;
             tbst1.Name = "tbst1";
@@ -105,6 +106,7 @@
             // 
             // tbst2
             // 
+            tbst2.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tbst2.Location = new Point(352, 275);
             tbst2.Multiline = true;
             tbst2.Name = "tbst2";
@@ -114,6 +116,7 @@
             // 
             // tbkq
             // 
+            tbkq.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tbkq.Location = new Point(352, 418);
             tbkq.Multiline = true;
             tbkq.Name = "tbkq";

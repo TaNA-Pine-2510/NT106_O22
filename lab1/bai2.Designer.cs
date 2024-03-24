@@ -206,7 +206,6 @@
             tbs3.Name = "tbs3";
             tbs3.Size = new Size(193, 51);
             tbs3.TabIndex = 2;
-            tbs3.Text = "90";
             tbs3.TextAlign = HorizontalAlignment.Center;
             tbs3.TextChanged += tbs3_TextChanged;
             // 

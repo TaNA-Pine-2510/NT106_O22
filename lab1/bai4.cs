@@ -65,12 +65,17 @@ namespace lab1
 
         private void btXoa_Click(object sender, EventArgs e)
         {
-            tbkq.Text = tbNhap.Text = "Hihi";
+            tbkq.Text = tbNhap.Text = "";
         }
 
         private void btExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void tbkq_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
         }
     }
 }

@@ -29,22 +29,22 @@ namespace lab1
 
         private void btDoc_Click(object sender, EventArgs e)
         {
-            string[] donvi = { "Không", "Một", "Hai", "Ba", "Bốn", "Năm", "Sáu", "Bảy", "Tám", "Chín" ,"Mười"};
+            string[] donvi = { "Không", "Một", "Hai", "Ba", "Bốn", "Năm", "Sáu", "Bảy", "Tám", "Chín", "Mười" };
             string[] muoi = { "Mười", "Mười Một", "Mười Hai", "Mười Ba", "Mười Bốn", "Mười Lăm", "Mười Sáu", "Mười Bảy", "Mười Tám", "Mười Chín" };
             string[] chuc = { "", "Hai Mươi", "Ba Mươi", "Bốn Mươi", "Năm Mươi", "Sáu Mươi", "Bảy Mươi", "Tám Mươi", "Chín Mươi" };
 
             int Number = int.Parse(tbNhap.Text);
             int num = Number;
             string numText = "";
-            if(num<0||num>10000)
+            if (num < 0 || num > 10000)
             {
                 MessageBox.Show("Vui lòng số nguyên từ 0 - 10000!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                 tbNhap.Text = "";
-            }    
-            if(num==10000)
+            }
+            if (num == 10000)
             {
                 numText = "Mười Ngàn";
-            }    
+            }
             if (num > 999 && num < 10000)
             {
                 int i = num / 1000;
@@ -88,7 +88,7 @@ namespace lab1
                 numText = numText + muoi[i];
             }
 
-            if (num >0 && num < 10 && Number > 9)
+            if (num > 0 && num < 10 && Number > 9)
             {
                 if (num == 1)
                 {
@@ -118,7 +118,17 @@ namespace lab1
         private void btExit_Click(object sender, EventArgs e)
         {
             this.Close();
-        } 
+        }
+
+        private void tbkq_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbkq_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
     }
 }
 

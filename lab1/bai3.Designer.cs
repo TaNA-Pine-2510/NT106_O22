@@ -111,6 +111,8 @@
             tbkq.Size = new Size(372, 89);
             tbkq.TabIndex = 3;
             tbkq.TabStop = false;
+            tbkq.TextChanged += tbkq_TextChanged;
+            tbkq.KeyPress += tbkq_KeyPress;
             // 
             // label1
             // 

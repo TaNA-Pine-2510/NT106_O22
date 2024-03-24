@@ -110,9 +110,9 @@
             lbvidu.Location = new Point(160, 84);
             lbvidu.Margin = new Padding(4, 0, 4, 0);
             lbvidu.Name = "lbvidu";
-            lbvidu.Size = new Size(308, 33);
+            lbvidu.Size = new Size(313, 33);
             lbvidu.TabIndex = 12;
-            lbvidu.Text = "Ví dụ: Huỳnh My, 9, 8, 10";
+            lbvidu.Text = "Ví dụ: Huỳnh My; 9; 8; 10";
             // 
             // flowLayoutPanel1
             // 
@@ -128,67 +128,67 @@
             // 
             lbtb.AutoSize = true;
             lbtb.BackColor = Color.Transparent;
-            lbtb.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbtb.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbtb.Location = new Point(440, 561);
             lbtb.Name = "lbtb";
-            lbtb.Size = new Size(0, 33);
+            lbtb.Size = new Size(0, 36);
             lbtb.TabIndex = 14;
             // 
             // lbmin
             // 
             lbmin.AutoSize = true;
             lbmin.BackColor = Color.Transparent;
-            lbmin.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbmin.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbmin.Location = new Point(550, 627);
             lbmin.Name = "lbmin";
-            lbmin.Size = new Size(0, 33);
+            lbmin.Size = new Size(0, 36);
             lbmin.TabIndex = 15;
             // 
             // lbdau
             // 
             lbdau.AutoSize = true;
             lbdau.BackColor = Color.Transparent;
-            lbdau.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbdau.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbdau.Location = new Point(367, 692);
             lbdau.Name = "lbdau";
-            lbdau.Size = new Size(0, 33);
+            lbdau.Size = new Size(0, 36);
             lbdau.TabIndex = 16;
             // 
             // lbxloai
             // 
             lbxloai.AutoSize = true;
             lbxloai.BackColor = Color.Transparent;
-            lbxloai.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbxloai.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbxloai.Location = new Point(1169, 561);
             lbxloai.Name = "lbxloai";
-            lbxloai.Size = new Size(0, 33);
+            lbxloai.Size = new Size(0, 36);
             lbxloai.TabIndex = 17;
             // 
             // lbmax
             // 
             lbmax.AutoSize = true;
             lbmax.BackColor = Color.Transparent;
-            lbmax.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbmax.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbmax.Location = new Point(1284, 625);
             lbmax.Name = "lbmax";
-            lbmax.Size = new Size(0, 33);
+            lbmax.Size = new Size(0, 36);
             lbmax.TabIndex = 18;
             // 
             // lbrot
             // 
             lbrot.AutoSize = true;
             lbrot.BackColor = Color.Transparent;
-            lbrot.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbrot.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbrot.Location = new Point(1232, 692);
             lbrot.Name = "lbrot";
-            lbrot.Size = new Size(0, 33);
+            lbrot.Size = new Size(0, 36);
             lbrot.TabIndex = 19;
             // 
             // tbten
             // 
             tbten.BackColor = Color.FromArgb(244, 232, 225);
             tbten.BorderStyle = BorderStyle.None;
-            tbten.Font = new Font("Times New Roman", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            tbten.Font = new Font("Times New Roman", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
             tbten.Location = new Point(266, 480);
             tbten.Margin = new Padding(4, 3, 4, 3);
             tbten.Multiline = true;
@@ -196,6 +196,7 @@
             tbten.Size = new Size(381, 42);
             tbten.TabIndex = 10;
             tbten.TextChanged += tbten_TextChanged;
+            tbten.KeyPress += tbten_KeyPress;
             // 
             // bai5
             // 

@@ -103,6 +103,7 @@
             tbkq.Size = new Size(675, 78);
             tbkq.TabIndex = 7;
             tbkq.TabStop = false;
+            tbkq.KeyPress += tbkq_KeyPress;
             // 
             // cb1
             // 

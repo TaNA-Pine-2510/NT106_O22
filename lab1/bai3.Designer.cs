@@ -42,7 +42,7 @@
             // 
             // btExit
             // 
-            btExit.BackColor = Color.White;
+            btExit.BackColor = Color.Transparent;
             btExit.FlatAppearance.BorderColor = SystemColors.ControlLightLight;
             btExit.FlatAppearance.BorderSize = 0;
             btExit.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 192, 192);
@@ -50,7 +50,7 @@
             btExit.Font = new Font("Times New Roman", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btExit.Location = new Point(318, 413);
             btExit.Name = "btExit";
-            btExit.Size = new Size(102, 71);
+            btExit.Size = new Size(102, 83);
             btExit.TabIndex = 3;
             btExit.Text = "Thoát";
             btExit.UseVisualStyleBackColor = false;
@@ -58,7 +58,7 @@
             // 
             // btDel
             // 
-            btDel.BackColor = Color.White;
+            btDel.BackColor = Color.Transparent;
             btDel.FlatAppearance.BorderColor = SystemColors.ControlLightLight;
             btDel.FlatAppearance.BorderSize = 0;
             btDel.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 192, 192);
@@ -66,7 +66,7 @@
             btDel.Font = new Font("Times New Roman", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btDel.Location = new Point(185, 413);
             btDel.Name = "btDel";
-            btDel.Size = new Size(102, 71);
+            btDel.Size = new Size(102, 83);
             btDel.TabIndex = 2;
             btDel.Text = "Xóa";
             btDel.UseVisualStyleBackColor = false;
@@ -74,7 +74,7 @@
             // 
             // btDoc
             // 
-            btDoc.BackColor = Color.White;
+            btDoc.BackColor = Color.Transparent;
             btDoc.FlatAppearance.BorderColor = SystemColors.ControlLightLight;
             btDoc.FlatAppearance.BorderSize = 0;
             btDoc.FlatAppearance.MouseOverBackColor = Color.FromArgb(209, 226, 244);
@@ -82,7 +82,7 @@
             btDoc.Font = new Font("Times New Roman", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btDoc.Location = new Point(54, 413);
             btDoc.Name = "btDoc";
-            btDoc.Size = new Size(102, 71);
+            btDoc.Size = new Size(102, 83);
             btDoc.TabIndex = 1;
             btDoc.Text = "Đọc";
             btDoc.UseVisualStyleBackColor = false;

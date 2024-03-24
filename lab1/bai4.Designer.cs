@@ -34,12 +34,13 @@
             btExit = new Button();
             tbNhap = new TextBox();
             tbkq = new TextBox();
-            comboBox1 = new ComboBox();
+            cb1 = new ComboBox();
+            cb2 = new ComboBox();
             SuspendLayout();
             // 
             // btDoi
             // 
-            btDoi.BackColor = SystemColors.Control;
+            btDoi.BackColor = Color.Transparent;
             btDoi.FlatAppearance.MouseOverBackColor = Color.Aquamarine;
             btDoi.FlatStyle = FlatStyle.Flat;
             btDoi.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -49,10 +50,11 @@
             btDoi.TabIndex = 3;
             btDoi.Text = "Đổi";
             btDoi.UseVisualStyleBackColor = false;
+            btDoi.Click += btDoi_Click;
             // 
             // btXoa
             // 
-            btXoa.BackColor = SystemColors.Control;
+            btXoa.BackColor = Color.Transparent;
             btXoa.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 224, 192);
             btXoa.FlatStyle = FlatStyle.Flat;
             btXoa.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -62,10 +64,11 @@
             btXoa.TabIndex = 4;
             btXoa.Text = "Xóa";
             btXoa.UseVisualStyleBackColor = false;
+            btXoa.Click += btXoa_Click;
             // 
             // btExit
             // 
-            btExit.BackColor = SystemColors.Control;
+            btExit.BackColor = Color.Transparent;
             btExit.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 192, 192);
             btExit.FlatStyle = FlatStyle.Flat;
             btExit.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -75,6 +78,7 @@
             btExit.TabIndex = 5;
             btExit.Text = "Thoát";
             btExit.UseVisualStyleBackColor = false;
+            btExit.Click += btExit_Click;
             // 
             // tbNhap
             // 
@@ -86,6 +90,7 @@
             tbNhap.Name = "tbNhap";
             tbNhap.Size = new Size(659, 78);
             tbNhap.TabIndex = 0;
+            tbNhap.TextChanged += tbNhap_TextChanged;
             // 
             // tbkq
             // 
@@ -99,13 +104,25 @@
             tbkq.TabIndex = 7;
             tbkq.TabStop = false;
             // 
-            // comboBox1
+            // cb1
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(511, 361);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(250, 33);
-            comboBox1.TabIndex = 8;
+            cb1.Font = new Font("Times New Roman", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            cb1.FormattingEnabled = true;
+            cb1.Items.AddRange(new object[] { "Binary", "Decimal", "Hexadecimal" });
+            cb1.Location = new Point(511, 361);
+            cb1.Name = "cb1";
+            cb1.Size = new Size(250, 40);
+            cb1.TabIndex = 8;
+            // 
+            // cb2
+            // 
+            cb2.Font = new Font("Times New Roman", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            cb2.FormattingEnabled = true;
+            cb2.Items.AddRange(new object[] { "Binary", "Decimal", "Hexadecimal" });
+            cb2.Location = new Point(912, 361);
+            cb2.Name = "cb2";
+            cb2.Size = new Size(263, 40);
+            cb2.TabIndex = 9;
             // 
             // bai4
             // 
@@ -115,7 +132,8 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1241, 751);
-            Controls.Add(comboBox1);
+            Controls.Add(cb2);
+            Controls.Add(cb1);
             Controls.Add(tbkq);
             Controls.Add(tbNhap);
             Controls.Add(btExit);
@@ -134,6 +152,7 @@
         private Button btExit;
         private TextBox tbNhap;
         private TextBox tbkq;
-        private ComboBox comboBox1;
+        private ComboBox cb1;
+        private ComboBox cb2;
     }
 }

@@ -44,3 +44,26 @@ D:\Huỳnh My\NT106_O22\lab1\obj\Debug\net8.0-windows\refint\lab1.dll
 D:\Huỳnh My\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.pdb
 D:\Huỳnh My\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.genruntimeconfig.cache
 D:\Huỳnh My\NT106_O22\lab1\obj\Debug\net8.0-windows\ref\lab1.dll
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\bin\Debug\net8.0-windows\lab1.exe
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\bin\Debug\net8.0-windows\lab1.deps.json
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\bin\Debug\net8.0-windows\lab1.runtimeconfig.json
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\bin\Debug\net8.0-windows\lab1.dll
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\bin\Debug\net8.0-windows\lab1.pdb
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.bai1.resources
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.bai2.resources
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.bai3.resources
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.bai4.resources
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.bai5.resources
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.menu.resources
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.Properties.Resources.resources
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.csproj.GenerateResource.cache
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.AssemblyInfoInputs.cache
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.AssemblyInfo.cs
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.csproj.CoreCompileInputs.cache
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.sourcelink.json
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.dll
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\refint\lab1.dll
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.pdb
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\lab1.genruntimeconfig.cache
+C:\Users\Trần Hoài Phú\source\repos\NT106_O22\lab1\obj\Debug\net8.0-windows\ref\lab1.dll

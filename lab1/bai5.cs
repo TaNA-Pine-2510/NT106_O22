@@ -125,7 +125,7 @@ namespace lab1
         {
             flowLayoutPanel1.Controls.Clear();
             tbnhap.Text = "";
-            lbtb.Text = lbxloai.Text = lbrot.Text = lbdau.Text = lbmin.Text = lbmax.Text = tbten.Text="";
+            lbtb.Text = lbxloai.Text = lbrot.Text = lbdau.Text = lbmin.Text = lbmax.Text =tbten.Text= "";
         }
 
         private void btthoat_Click(object sender, EventArgs e)

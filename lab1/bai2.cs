@@ -7,8 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+{}
 
 namespace lab1
+    
 {
     public partial class bai2 : Form
     {

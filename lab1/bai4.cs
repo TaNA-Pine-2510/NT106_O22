@@ -36,10 +36,24 @@ namespace lab1
                 try
                 {
                     if (cb1.Text == "Binary" && cb2.Text == "Decimal")
+                    {
+                        if (int.Parse(tbNhap.Text) < 0)
+                        {
+                            MessageBox.Show("Vui không nhập đúng format!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                            // tbNhap.Text = "";
+                        }
                         tbkq.Text = Convert.ToInt32(tbNhap.Text, 2).ToString();
+                    }
 
                     else if (cb1.Text == "Binary" && cb2.Text == "Hexadecimal")
+                    {
+                        if (int.Parse(tbNhap.Text) < 0)
+                        {
+                            MessageBox.Show("Vui không nhập đúng format!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                            // tbNhap.Text = "";
+                        }
                         tbkq.Text = Convert.ToString(Convert.ToInt32(tbNhap.Text, 2), 16);
+                    }
 
                     else if (cb1.Text == "Decimal" && cb2.Text == "Binary")
                         tbkq.Text = Convert.ToString(int.Parse(tbNhap.Text), 2);

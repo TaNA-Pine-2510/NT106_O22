@@ -63,6 +63,14 @@ namespace lab1
 
             int numSJ = input.Length - 1;
             // scores = new double[numSJ];
+            for (int i = 1; i <= numSJ; i++)
+            {
+                if (!double.TryParse(input[i].Trim(), out scores[i - 1]) || scores[i - 1] < 0 || scores[i - 1] > 10)
+                {
+                    MessageBox.Show("Vui lòng nhập điểm từ 0 -> 10", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+            }
             tbten.Text = name + "\r\n";
             for (int i = 0; i < scores.Length; i++)
             {

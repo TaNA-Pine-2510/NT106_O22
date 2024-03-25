@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Huỳnh My\\NT106_O22\\lab1\\lab1.csproj": {}
+    "C:\\Users\\Trần Hoài Phú\\source\\repos\\NT106_O22\\lab1\\lab1.csproj": {}
   },
   "projects": {
-    "D:\\Huỳnh My\\NT106_O22\\lab1\\lab1.csproj": {
+    "C:\\Users\\Trần Hoài Phú\\source\\repos\\NT106_O22\\lab1\\lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Huỳnh My\\NT106_O22\\lab1\\lab1.csproj",
+        "projectUniqueName": "C:\\Users\\Trần Hoài Phú\\source\\repos\\NT106_O22\\lab1\\lab1.csproj",
         "projectName": "lab1",
-        "projectPath": "D:\\Huỳnh My\\NT106_O22\\lab1\\lab1.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Huỳnh My\\NT106_O22\\lab1\\obj\\",
+        "projectPath": "C:\\Users\\Trần Hoài Phú\\source\\repos\\NT106_O22\\lab1\\lab1.csproj",
+        "packagesPath": "C:\\Users\\Trần Hoài Phú\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Trần Hoài Phú\\source\\repos\\NT106_O22\\lab1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Trần Hoài Phú\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
